@@ -6,5 +6,5 @@
       source: {repository: node}
     
     run:
-      path: ll
-      args: [../]
+      path: ls
+      args: [-l ../]
