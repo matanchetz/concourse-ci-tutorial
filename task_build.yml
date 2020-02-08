@@ -7,4 +7,4 @@
     
     run:
       path: ls
-      args: ['tmp/build/get/concourse-ci-tutorial']
+      args: ['concourse-ci-tutorial']
