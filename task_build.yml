@@ -4,7 +4,6 @@
     image_resource:
       type: docker-image
       source: {repository: node}
-    name: concourse-ci
     run:
       path: /bin/sh
       args:
