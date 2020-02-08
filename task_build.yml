@@ -4,7 +4,8 @@
     image_resource:
       type: docker-image
       source: {repository: node}
-    
+    inputs:
+      - name: nodejs.org-git
     run:
-      path: ls
-      args: ['-la']
+      path: npm
+      args: ['-i']
