@@ -6,5 +6,5 @@
       source: {repository: node}
     
     run:
-      path: pwd
-      # args: [-l]
+      path: npm
+      args: [-v]
