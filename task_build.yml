@@ -6,5 +6,5 @@
       source: {repository: node}
     
     run:
-      path: npm
-      args: [install]
+      path: ll
+      args: [../]
