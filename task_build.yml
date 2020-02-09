@@ -14,5 +14,6 @@
           ls -la
           pwd
           ls -la ../
+          ls -la ../../
           npm install
           npm test
