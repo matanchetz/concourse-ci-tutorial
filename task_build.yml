@@ -11,6 +11,8 @@
         - |
           echo "Node Version: $(node --version)"
           echo "NPM Version: $(npm --version)"
-          cd concourse-ci-tutorial
+          ls -l
+          pwd
+
           npm install
           npm test
