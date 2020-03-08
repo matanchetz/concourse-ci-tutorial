@@ -12,6 +12,8 @@
         - |
           echo "Node Version: $(node --version)"
           echo "NPM Version: $(npm --version)"
+          echo registry=https://art-bobcat.autodesk.com/artifactory/api/npm/autodesk-npm-virtual/  > ~/.npmrc
+          echo @adsk:registry=https://art-bobcat.autodesk.com/artifactory/api/npm/autodesk-npm/ >> ~/.npmrc
           cd node_poc
           npm install
           npm test
