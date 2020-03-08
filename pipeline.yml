@@ -12,5 +12,10 @@
         - |
           echo "Node Version: $(node --version)"
           echo "NPM Version: $(npm --version)"
+          ls -l
+          pwd
+          ls /
+          ls -l ../
+          ls -l ../../
           npm install
           npm test
