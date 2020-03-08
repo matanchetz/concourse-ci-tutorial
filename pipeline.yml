@@ -1,12 +1,11 @@
 ---
     platform: linux
- 
+    inputs:
+      - name: node_poc 
     image_resource:
       type: docker-image
       source: {repository: node}
-    run:
-      inputs:
-        - name: node_poc   
+    run:  
       path: /bin/sh
       args:
         - -c
